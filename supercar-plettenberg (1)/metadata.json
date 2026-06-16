@@ -1,0 +1,6 @@
+{
+  "name": "SUPERCAR Plettenberg",
+  "description": "High-end presentation portal for Super Car El Chami car dealership in Plettenberg, featuring luxury-standard customizer, diashow, inventory search, and real-time availability.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

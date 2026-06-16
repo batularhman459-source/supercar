@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Rounded elegant squircle base -->
+  <rect width="512" height="512" rx="140" fill="#0a1d37" />
+  
+  <!-- Outer glowing luxury circle -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#ff7900" stroke-width="12" />
+  <circle cx="256" cy="256" r="204" fill="none" stroke="#ffffff" stroke-width="4" stroke-opacity="0.3" />
+
+  <!-- A highly polished supercar contour silhouette -->
+  <!-- Roofline and rear wing -->
+  <path d="M 120 280 C 180 180, 320 180, 380 280" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" />
+  <!-- Side waist lines and front nose -->
+  <path d="M 100 290 Q 256 220 412 290" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.8" />
+  
+  <!-- Dynamic Supercar aggressive headlights (slanted glowing wedges) -->
+  <polygon points="140,285 180,280 170,295 135,295" fill="#ff7900" />
+  <polygon points="372,285 332,280 342,295 377,295" fill="#ff7900" />
+
+  <!-- Distinctive Slanted Wedge under the car silhouette (just like the dealer logo) -->
+  <polygon points="90,320 422,320 405,370 190,370 90,323" fill="#ff7900" />
+  
+  <!-- Inside the wedge: "El Chami" Signature or Text in high-contrast white -->
+  <text
+    x="256"
+    y="356"
+    fill="#ffffff"
+    style="font-family: 'Caveat', 'Dancing Script', 'Brush Script MT', cursive, sans-serif; font-size: 34px; font-weight: 900; letter-spacing: 0.05em;"
+    text-anchor="middle"
+  >
+    El Chami
+  </text>
+  
+  <!-- "S" and "C" premium metallic monograms floating at the top inside the circle -->
+  <text
+    x="256"
+    y="175"
+    fill="#ffffff"
+    style="font-family: 'Inter', 'Space Grotesk', sans-serif; font-size: 96px; font-weight: 900; font-style: italic; letter-spacing: 0.05em;"
+    text-anchor="middle"
+  >
+    S C
+  </text>
+</svg>
